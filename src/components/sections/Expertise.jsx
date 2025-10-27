@@ -16,7 +16,7 @@ function Expertise() {
 
                     <ul className="mt-9 space-y-4">
 
-                        <li className="text-lg flex items-start gap-4 mb-2 md:text-xl"><FaCheckCircle className="text-blue-950 text-lg mr-2" />  Crafting personalized homes </li>
+                        <li className="text-lg flex items-start  gap-4 mb-2 md:text-xl"><FaCheckCircle className="text-blue-950 text-lg mr-2" />  Crafting personalized homes </li>
                         <li className="text-lg flex items-start gap-4 mb-2 md:text-xl"><FaCheckCircle className="text-blue-950 text-lg mr-2" />  Designing functional and innovative spaces for businesses.</li>
                         <li className="text-lg flex items-start gap-4 mb-2 md:text-xl"><FaCheckCircle className="text-blue-950 text-lg mr-2" />  Integrating eco-friendly practices and materials.</li>
                         <li className="text-lg flex items-start gap-4 mb-2 md:text-xl"><FaCheckCircle className="text-blue-950 text-lg mr-2" />  Enhancing interior spaces through thoughtful design.</li>

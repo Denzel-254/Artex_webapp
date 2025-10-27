@@ -4,6 +4,8 @@ import Hero from './components/sections/Hero'
 import Stats from './components/sections/Stats'
 import SectionWrapper from './components/common/Sectionwrapper'
 import Expertise from './components/sections/Expertise'
+import Projects from './components/sections/Project'
+import About from './components/sections/About'
 
 function App() {
 
@@ -18,6 +20,14 @@ function App() {
 
       <SectionWrapper className="mt-8 bg-gray-50">
         <Expertise />
+      </SectionWrapper>
+
+      <SectionWrapper className="bg-gray-50">
+        <Projects />
+      </SectionWrapper>
+
+      <SectionWrapper className="bg-gray-50">
+        <About />
       </SectionWrapper>
     </>
   )
