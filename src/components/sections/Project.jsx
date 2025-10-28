@@ -11,19 +11,19 @@ function Projects() {
                 </div>
 
                 <div>
-                    <img src="/background 2.jpg" alt="completed bulifing" className="w-full h-auto rounded-2xl" />
+                    <img src="/collaboration.png" alt="completed bulifing" className="w-full h-auto rounded-2xl" />
                     <h3 className="teext-3xl mt-3 font-bold text-gray-900 ">Completed</h3>
 
                 </div>
 
                 <div>
-                    <img src="/background 2.jpg" alt="completed bulifing" className="w-full h-auto rounded-2xl" />
+                    <img src="/collaboration.png" alt="completed bulifing" className="w-full h-auto rounded-2xl" />
                     <h3 className="teext-3xl mt-3 font-bold text-gray-900">Ongoing</h3>
 
                 </div>
 
                 <div>
-                    <img src="/background 2.jpg" alt="completed bulifing" className="w-full h-auto rounded-2xl" />
+                    <img src="/collaboration.png" alt="completed bulifing" className="w-full h-auto rounded-2xl" />
                     <h3 className="teext-3xl mt-3 font-bold text-gray-900">Completed</h3>
 
                 </div>

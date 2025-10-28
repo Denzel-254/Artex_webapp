@@ -6,6 +6,7 @@ import SectionWrapper from './components/common/Sectionwrapper'
 import Expertise from './components/sections/Expertise'
 import Projects from './components/sections/Project'
 import About from './components/sections/About'
+import Showcase from './components/sections/Showcase'
 
 function App() {
 
@@ -29,6 +30,10 @@ function App() {
       <SectionWrapper className="bg-gray-50">
         <About />
       </SectionWrapper>
+      <SectionWrapper className="bg-gray-50">
+        <Showcase />
+      </SectionWrapper>
+
     </>
   )
 }
