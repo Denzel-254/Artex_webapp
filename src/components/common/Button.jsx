@@ -11,7 +11,7 @@ function Button({
     const variants = {
         primary: 'bg-orange-600 text-white hover:bg-transparent hover:text-orange-600 hover:ring-2 hover:ring-orange-500 focus:ring-orange-500',
         secondary: 'bg-white text-primary-blue border border-primary-blue hover:bg-blue-50 focus:ring-blue-500',
-        outline: 'border-2 border-white text-white hover:text-blue-900 hover:bg-white focus:ring-blue-600',
+        outline: 'border-2 border-white text-white backdrop-blur-sm',
     };
 
     const sizes = {

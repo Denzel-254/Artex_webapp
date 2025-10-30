@@ -25,7 +25,7 @@ function Hero() {
                             Start Your Project
                         </Button>
                         <Button variant="outline" size="lg">
-                            View Portfolio
+                            Sign Up Now
                         </Button>
                     </div>
                 </div>
