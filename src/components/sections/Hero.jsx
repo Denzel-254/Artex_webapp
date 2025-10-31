@@ -1,5 +1,5 @@
 import Button from "../common/Button";
-
+import { Link } from "react-router-dom";
 
 
 function Hero() {
@@ -21,12 +21,14 @@ function Hero() {
                     </p>
 
                     <div className="flex gap-4  justify-center mt-8">
-                        <Button variant="primary" size="lg">
+                        <Button variant="primary" size="lg" className="cursor-pointer">
                             Start Your Project
                         </Button>
-                        <Button variant="outline" size="lg">
-                            Sign Up Now
-                        </Button>
+                        <Link to="/signup">
+                            <Button variant="outline" size="lg" className="cursor-pointer">
+                                Sign Up Now
+                            </Button>
+                        </Link>
                     </div>
                 </div>
             </main>

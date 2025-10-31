@@ -6,7 +6,7 @@ function Button({
     className = '',
     ...props
 }) {
-    const baseClasses = 'font-semibold rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2';
+    const baseClasses = 'font-semibold rounded-lg transition-colors duration-200 focus:outline-none';
 
     const variants = {
         primary: 'bg-orange-600 text-white hover:bg-transparent hover:text-orange-600 hover:ring-2 hover:ring-orange-500 focus:ring-orange-500',
