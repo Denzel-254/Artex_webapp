@@ -7,7 +7,7 @@ const testimonials = [
         name: "Josh Smith",
         role: "Manager of The New York Times",
         text: "They have a perfect touch for making something so professional, interesting and useful for a lot of people.We are very happy to work with them.",
-        image: "/test1.png",
+        image: "/test8.png",
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ const testimonials = [
         name: "Michael Brown",
         role: "Architect at BuildX",
         text: "Great service and attention to detail. I would recommend them to anyone.I'm extremely satisfied with my experience.",
-        image: "/test3.png",
+        image: "/test5.png",
     },
     {
         id: 4,
@@ -36,7 +36,7 @@ const testimonials = [
         name: "Sarah Lee",
         role: "CEO of DesignPro",
         text: "Their expertise in design is unmatched. They truly understand our vision. The end result was stunning.",
-        image: "/test5.png"
+        image: "/test9.png"
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ const testimonials = [
         name: "Emily Davis",
         role: "Creative Director at ArtHouse",
         text: "Working with them was a fantastic experience. They brought our ideas to life beautifully. We look forward to future collaborations.",
-        image: "/test7.png"
+        image: "/test3.png"
     }
 ];
 

@@ -2,9 +2,9 @@ import { FaCheckCircle } from "react-icons/fa";
 
 function About() {
     return (
-        <section className="contaner mx-auto py-5 px-10">
+        <section className="contaner mx-auto py-5 px-3">
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center overflow-hidden mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center overflow-hidden mx-auto">
                 <div className="container mx-auto">
                     <h2 className="text-4xl font-bold text-blue-950 mb-6">Crafting Architectural Excellence Since 2018</h2>
 
