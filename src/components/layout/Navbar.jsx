@@ -8,10 +8,11 @@ const Navbar = () => {
 
     const links = [
         { id: 1, name: "Home", to: "home" },
-        { id: 2, name: "Features", to: "features" },
-        { id: 3, name: "About", to: "about" },
-        { id: 2, name: "Services", to: "services" },
-        { id: 4, name: "Contact", to: "contact" },
+        { id: 2, name: "Expertise", to: "expertise" },
+        { id: 3, name: "Services", to: "services" },
+        { id: 4, name: "About", to: "about" },
+        { id: 5, name: "Projects", to: "projects" },
+        { id: 6, name: "Contact", to: "contact" }
     ];
 
     // Smooth scroll handler
