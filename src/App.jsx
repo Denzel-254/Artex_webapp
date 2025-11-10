@@ -1,22 +1,38 @@
+import "aos/dist/aos.css";
 import './App.css'
 import Header from './components/layout/Header'
 import Hero from './components/sections/Hero'
 import Stats from './components/sections/Stats'
 import SectionWrapper from './components/common/Sectionwrapper'
 import Expertise from './components/sections/Expertise'
-import Projects from './components/sections/Project'
+import NewMerchandise from './components/sections/NewMerchandise'
+// import Projects from './components/sections/Project'
 import About from './components/sections/About'
-import Showcase from './components/sections/Showcase'
-import Card from './components/common/Card'
 import Testimonial from './components/sections/Testimonials'
 import Contact from './components/sections/Contact'
 import Footer from './components/layout/Footer'
 import Login from './components/sections/Login'
 import Signup from './components/sections/Signup'
 import Home from './components/sections/Home'
+import Products from './components/common/Product'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import React, { useEffect } from "react";
+import AOS from "aos";
+
 
 function App() {
+
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+      offset: 120,
+      easing: "ease-in-out",
+      delay: 100,
+      startEvent: 'DOMContentLoaded',
+    });
+  }, []);
 
 
   return (
@@ -36,7 +52,9 @@ function App() {
             </SectionWrapper>
 
             <SectionWrapper className="bg-gray-50">
-              <Projects />
+
+              <NewMerchandise />
+              {/* <Projects /> */}
             </SectionWrapper>
 
             <SectionWrapper className="bg-gray-50">
@@ -44,7 +62,9 @@ function App() {
             </SectionWrapper>
             <SectionWrapper className="bg-gray-50">
 
-              <Showcase />
+              <Products />
+
+              {/* <Showcase />
 
               <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                 <Card projectName="Hyundai Towers" location="China" cost="$100,000" image="/complete1.png" />
@@ -55,7 +75,7 @@ function App() {
                 <Card projectName="Lakeside Homes" location="Canada" cost="$350,000" image="/complete6.png" />
                 <Card projectName="Desert Oasis" location="UAE" cost="$450,000" image="/complete7.png" />
                 <Card projectName="Forest Cabins" location="Finland" cost="$200,000" image="/complete8.png" />
-              </div>
+              </div> */}
             </SectionWrapper>
             <SectionWrapper className="bg-gray-50">
               <Testimonial />

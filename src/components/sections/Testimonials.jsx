@@ -80,7 +80,7 @@ const Testimonial = () => {
     return (
         <section className="max-w-7xl mx-auto px-6 py-5 grid grid-cols-1 md:grid-cols-2 items-center gap-10">
 
-            <div>
+            <div >
                 <h2 className="text-4xl font-bold text-blue-950 mb-10">
                     What People Are Saying About Us
                 </h2>
@@ -104,20 +104,20 @@ const Testimonial = () => {
                 <div className="flex items-center gap-4 mt-8">
                     <button
                         onClick={prevSlide}
-                        className="p-3 bg-orange-500 text-white hover:bg-orange-700 rounded-full transition"
+                        className="p-3 bg-gray-500 text-white hover:bg-orange-700 rounded-full transition"
                     >
                         <FaChevronLeft className="cursor-pointer" />
                     </button>
                     <button
                         onClick={nextSlide}
-                        className="p-3 bg-orange-500 text-white hover:bg-orange-700 rounded-full transition"
+                        className="p-3 bg-gray-500 text-white hover:bg-orange-700 rounded-full transition"
                     >
                         <FaChevronRight className="cursor-pointer" />
                     </button>
                 </div>
             </div>
 
-            <div className="flex justify-center shadow-md">
+            <div className="flex justify-center shadow-md" >
                 <img
                     src="/care.png"
                     alt="testimonial background"

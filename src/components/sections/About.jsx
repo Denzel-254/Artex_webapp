@@ -12,21 +12,18 @@ function About() {
                     <p className="text-lg text-gray-700 mb-6">Artex Architecture emerged from a vision to bridge
                         the gap between architectural artistry and practical functionality.
                         Founded by James Andlly, an architect with 15 years of experience in
-                        both boutique residential and large-scale commercial projects.
+                        both boutique residential and large-scale commercial projects. <br />
+                        Over the years, we've cultivated a reputation for designs
+                        that don't just look impressive in portfolios—they work beautifully
+                        in daily life.
                     </p>
 
-                    <h2 className="text-4xl font-bold text-blue-950 mb-6">Why Choose Artex</h2>
-                    <ul className="mt-9 space-y-4 text-gray-700">
-                        <li className="text-lg flex items-start  gap-4 mb-2 "> <FaCheckCircle className="text-blue-950 text-lg mr-2" />Holistic Approach: We consider every aspect of your project.</li>
-                        <li className="text-lg flex items-start  gap-4 mb-2 "><FaCheckCircle className="text-blue-950 text-lg mr-2" />Collaborative Process: You're involved at every stage.</li >
-                        <li className="text-lg flex items-start  gap-4 mb-2 "><FaCheckCircle className="text-blue-950 text-lg mr-2" />Technical Excellence: Our designs are  efficient and compliant</li>
-                        <li className="text-lg flex items-start  gap-4 mb-2 "><FaCheckCircle className="text-blue-950 text-lg mr-2" /> Long-term Perspective: We create architecture that  serves generations</li>
-                    </ul>
+
 
                 </div>
 
                 <div>
-                    <img src="/sectionone.jpg" alt="collaboration photo" className="w-full h-auto object-cover rounded-2xl" />
+                    <img src="/sectionone.jpg" alt="collaboration photo" className="w-full h-90 object-cover rounded-2xl" />
                 </div>
             </div>
 

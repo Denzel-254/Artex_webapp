@@ -21,7 +21,7 @@ function Contact() {
                             />
                             <button
                                 type="submit"
-                                className="bg-orange-500 text-white p-3 rounded-md cursor-pointer hover:bg-orange-600 transition-colors"
+                                className="bg-gray-500 text-white p-3 rounded-md cursor-pointer hover:bg-gray-700 transition-colors"
                             >
                                 Schedule Now
                             </button>

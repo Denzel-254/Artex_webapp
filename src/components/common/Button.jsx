@@ -10,7 +10,7 @@ function Button({
 
     const variants = {
         primary: 'bg-orange-600 text-white hover:bg-transparent hover:text-orange-600 hover:ring-2 hover:ring-orange-500 focus:ring-orange-500',
-        secondary: 'bg-white text-primary-blue border border-primary-blue hover:bg-blue-50 focus:ring-blue-500',
+        secondary: 'bg-gray-500 text-white border border-primary-blue hover:bg-gray-700 ',
         outline: 'border-2 border-white text-white backdrop-blur-sm',
     };
 
