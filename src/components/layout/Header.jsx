@@ -12,7 +12,7 @@ const Header = () => {
                         alt="Artex designers Logo"
                         className="w-10 h-10 object-contain"
                     />
-                    <h1 className="text-2xl font-bold text-gray-400">Artex</h1>
+                    <h1 className="text-2xl font-bold text-blue-400">Artex</h1>
                 </div>
 
 

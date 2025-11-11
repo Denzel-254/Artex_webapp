@@ -9,9 +9,9 @@ const Navbar = () => {
     const links = [
         { id: 1, name: "Home", to: "home" },
         { id: 2, name: "Expertise", to: "expertise" },
-        { id: 3, name: "Services", to: "services" },
+        { id: 3, name: "Merchandise", to: "merchandise" },
         { id: 4, name: "About", to: "about" },
-        { id: 5, name: "Projects", to: "projects" },
+        { id: 5, name: "Products", to: "products" },
         { id: 6, name: "Contact", to: "contact" }
     ];
 
@@ -56,7 +56,7 @@ const Navbar = () => {
                         <li key={id}>
                             <button
                                 onClick={() => handleScroll(to)}
-                                className="cursor-pointer text-gray-600 hover:text-gray-700 transition focus:outline-none focus:ring-2 focus:ring-gray-500 rounded"
+                                className="cursor-pointer text-blue-400 hover:text-gray-700 font-bold transition focus:outline-none focus:ring-2 focus:ring-gray-500 rounded"
                             >
                                 {name}
                             </button>

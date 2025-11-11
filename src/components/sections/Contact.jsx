@@ -5,7 +5,7 @@ function Contact() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 relative">
 
                 <div className="hidden lg:block">
-                    <img src="/orange helemet.png" alt="Contact Us" className="mx-auto mb-4  absolute top-0 left-10 w-120 h-120" />
+                    <img src="/Grayhelmet.png" alt="Contact Us" className="mx-auto z-20 w-120 h-120" />
                 </div>
 
                 <div>

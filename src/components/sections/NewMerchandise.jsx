@@ -38,6 +38,12 @@ function NewMerchandise() {
             image: "/bluepen.png",
             title: "Artex Pen",
         },
+        {
+            id: 7,
+            image: "/handbag.png",
+            title: "Artex Hand Bag",
+        },
+
 
     ];
 
@@ -53,7 +59,7 @@ function NewMerchandise() {
                         Explore our latest Artex-branded merchandise — a perfect blend of
                         comfort, quality, and modern design that reflects our creativity.
                     </p>
-                    <Button variant="secondary" size="sm">
+                    <Button variant="secondary" size="sm" className="cursor-pointer">
                         Shop Now <FaArrowRight className="inline-block text-lg" />
                     </Button>
                 </div>
