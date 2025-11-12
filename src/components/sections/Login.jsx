@@ -14,7 +14,7 @@ function Login() {
   const handleLogin = async (e) => {
     try {
       e.preventDefault();
-      const res = await axios.post("http://localhost:3000/login", {
+      const res = await axios.post("https://artex-backend.onrender.com/login", {
         email,
         password,
       });

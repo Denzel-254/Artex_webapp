@@ -15,7 +15,7 @@ function Signup() {
   const handleSignup = async (e) => {
     try {
       e.preventDefault();
-      await axios.post("http://localhost:3000/signup", {
+      await axios.post("https://artex-backend.onrender.com/signup", {
         userName,
         email,
         password,
