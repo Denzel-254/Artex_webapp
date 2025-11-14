@@ -10,8 +10,8 @@ function Footer() {
   return (
     <footer className=" text-white py-6 mt-12">
       <div className="container mx-auto text-center">
-        <div className="flex justify-between mb-5">
-          <div className="flex flex-wrap items-baseline space-x-3  mx-20">
+        <div className="flex flex-wrap justify-between mb-5">
+          <div className="flex items-baseline space-x-3  mx-20">
             <img
               src="/logo1.png"
               alt="business logo"
@@ -29,7 +29,7 @@ function Footer() {
         </div>
         <hr className="border-t-2  mx-auto border-white my-5" />
 
-        <div className="flex justify-around text-left  flex-col-2 md:flex-row mt-10">
+        <div className="flex flex-wrap justify-around text-left  flex-col-1 md:flex-row mt-10">
           <div>
             <h2 className="text-lg font-semibold">Our Services</h2>
             <ul>
