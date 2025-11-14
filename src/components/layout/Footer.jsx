@@ -10,7 +10,7 @@ function Footer() {
   return (
     <footer className=" text-white py-6 mt-12">
       <div className="container mx-auto text-center">
-        <div className="flex flex-wrap justify-between mb-5">
+        <div className="flex flex-wrap justify-between items-center gap-4 mb-5">
           <div className="flex items-baseline space-x-3  mx-20">
             <img
               src="/logo1.png"
@@ -19,7 +19,7 @@ function Footer() {
             />
             <h1 className="text-xl  font-bold">Artex</h1>
           </div>
-          <div className="flex justify-center space-x-6 my-4 mx-10 text-xl">
+          <div className=" hidden md:flex md:justify-center md:space-x-6 my-4 mx-10 text-xl">
             <FaFacebookF className="cursor-pointer" />
             <FaTwitter className="cursor-pointer" />
             <FaInstagram className="cursor-pointer" />
@@ -29,7 +29,7 @@ function Footer() {
         </div>
         <hr className="border-t-2  mx-auto border-white my-5" />
 
-        <div className="flex flex-wrap justify-around text-left  flex-col-1 md:flex-row mt-10">
+        <div className="grid grid-cols-2 md:flex md:flex-wrap justify-center md:justify-around gap-8 text-left mt-10">
           <div>
             <h2 className="text-lg font-semibold">Our Services</h2>
             <ul>

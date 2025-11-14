@@ -66,11 +66,17 @@ function NewMerchandise() {
         <div className="lg:col-span-3">
           <Swiper
             spaceBetween={20}
-            slidesPerView={3}
             loop={true}
             autoplay={{
               delay: 2000,
               disableOnInteraction: false,
+            }}
+            touchRatio={1}
+            allowTouchMove={true}
+            breakpoints={{
+              0: { slidesPerView: 1 },
+              640: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
             }}
             modules={[Autoplay]}
             className="w-full"

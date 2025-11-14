@@ -21,16 +21,20 @@ function Contact() {
             first step towards creating your dream space.
           </p>
 
-          <div className="flex ">
-            <form action="#">
+          <div className="w-full">
+            <form
+              action="#"
+              className="flex flex-col sm:flex-row sm:items-center gap-6"
+            >
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="p-3 bg-white rounded-md w-64 mr-6 focus:outline-none  "
+                className="p-3 bg-white rounded-md w-full sm:w-64 focus:outline-none"
               />
+
               <button
                 type="submit"
-                className="bg-gray-500 text-white p-3 rounded-md cursor-pointer hover:bg-gray-700 transition-colors"
+                className="bg-gray-500 text-white p-3 rounded-md cursor-pointer hover:bg-gray-700 transition-colors w-full sm:w-auto"
               >
                 Schedule Now
               </button>
