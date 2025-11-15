@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-(Coming soon) — Will be deployed on **Render**
+https://artex-solutions.onrender.com
 
 ---
 
